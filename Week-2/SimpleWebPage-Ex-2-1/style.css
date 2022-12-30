@@ -1,0 +1,116 @@
+.container {
+  padding: 0 110px;
+}
+p {
+  color: #999;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.headerName {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+  margin-bottom: 40px;
+}
+.article {
+  padding: 20px;
+}
+.main-section {
+  display: flex;
+  margin-bottom: 40px;
+}
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+.main-section-div {
+  padding: 20px;
+}
+
+section,
+section {
+  width: 50%;
+}
+
+section {
+  margin-right: 2vw;
+}
+
+section {
+  margin-left: 2vw;
+}
+.ImgDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+img {
+  width: 70%;
+}
+
+.section2 {
+  display: grid;
+}
+
+.Form-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form,
+.inputs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.label {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input {
+  width: 190%;
+  padding: 4px 0;
+}
+.title {
+  margin-bottom: 10px;
+}
+button {
+  width: 40%;
+  margin-top: 20px;
+  border-radius: 40px;
+  border: none;
+  padding: 14px 44px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0;
+  }
+  .headerName {
+    width: 90%;
+    font-size: 22px;
+  }
+
+  .hero-section {
+    flex-wrap: wrap;
+  }
+  .main-section {
+    flex-wrap: wrap;
+  }
+  .Form-div {
+    padding: 0 10px;
+  }
+  .form {
+    width: 90%;
+  }
+}
